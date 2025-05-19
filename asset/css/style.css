@@ -1,0 +1,68 @@
+/* General css starts */
+*{ 
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+body{
+  background-color: aliceblue;
+}
+.container{
+  max-width:1440px;
+  margin:0 auto;
+  padding:15px 0;
+}
+/* General css ends */
+/* Heading styling */
+h1{
+  font-size:3rem;
+  text-align: center;
+}
+/* Paragraph styling */
+p{
+  font-size:1.5rem;
+  text-align: center;
+  margin-top: 0.8rem;
+}
+/* Home section css starts */
+#option{
+  margin:80px 0;
+}
+.form{
+  display:flex;
+  align-items: center;
+}
+#textbox {
+  width: 75%;
+}
+#textbox input {
+  width: 100%;
+  padding: 15px;
+}
+#error{
+  color:red;
+}
+#button #submit{
+  padding:15px;
+}
+#row-data{
+  width:80%;
+}
+#row-data td{
+  border:1px solid #ddd;
+  padding:8px;
+}
+.data{
+  width:90%;
+}
+#row-data tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+#row-data tr:nth-child(even):hover {
+  background-color: #f2f2f2;
+}
+.done .data{
+  text-decoration: line-through;
+}
+/* Home section css ends */
